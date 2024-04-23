@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot ESG</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box"></div>
+        <input type="text" id="user-input" placeholder="Digite sua pergunta...">
+        <button onclick="enviarPergunta()">Enviar</button>
+    </div>
+    <div class="perguntas">
+        <div>
+            <h2>Perguntas frequentes: </h2>
+            <p>clique em uma delas caso deseje a resposta de nosso chat</p>
+        </div>
+        <div class="perguntas_links">
+
+
+            <a href="javascript:void(0)" onclick="inserirPergunta('Como faço para me cadastrar na plataforma?')">Como
+                faço
+                para
+                me cadastrar na plataforma?</a>
+
+            <a href="javascript:void(0)"
+                onclick="inserirPergunta('Como posso recuperar minha senha se eu a esquecer?')">Como
+                posso recuperar minha senha se eu a esquecer?</a>
+
+            <a href="javascript:void(0)"
+                onclick="inserirPergunta('Quais são os recursos disponíveis na plataforma para promover a sustentabilidade?')">Quais
+                são os recursos disponíveis na plataforma para promover a sustentabilidade?</a>
+
+            <a href="javascript:void(0)"
+                onclick="inserirPergunta('Como posso entrar em contato com o suporte técnico da plataforma?')">Como
+                posso
+                entrar
+                em contato com o suporte técnico da plataforma?</a>
+
+            <a href="javascript:void(0)"
+                onclick="inserirPergunta('Existe algum tutorial ou guia para me ajudar a navegar na plataforma?')">Existe
+                algum
+                tutorial ou guia para me ajudar a navegar na plataforma?</a>
+            <a href="javascript:void(0)"
+                onclick="inserirPergunta('Como posso contribuir com projetos de sustentabilidade na plataforma?')">Como
+                posso
+                contribuir com projetos de sustentabilidade na plataforma?</a>
+            <a href="javascript:void(0)"
+                onclick="inserirPergunta('Quais são os benefícios de utilizar a plataforma ESG em minha empresa?')">Quais
+                são os
+                benefícios de utilizar a plataforma ESG em minha empresa?</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
